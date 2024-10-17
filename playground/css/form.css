@@ -1,7 +1,7 @@
-* {
+*{
     margin: 0;
     padding: 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 *:focus{
@@ -19,14 +19,14 @@ body{
     background-color: aqua;
     background-size: cover;
     background-position: center;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'roboto', sans-serif;
 }
 
 .form{
     width: 400px;
     height: auto;
-    color: antiquewhite;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-family: 'roboto', sans-serif;
 }
 
 .heading{
@@ -48,7 +48,7 @@ input,
     border-radius: 5px;
     background: rgba(255, 255, 255, 0.3);
     border: none;
-    color: #ffff;
+    color: #fff;
     padding: 15px;
     transition: .5s;
     text-transform: capitalize;
