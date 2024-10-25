@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz</title>
+    <title>Internet Safety Quiz</title>
     <link rel="stylesheet" href="intro.css">
 </head>
 <body>
     <div class="quiz-container">
         <h1>Internet Safety Quiz</h1>
-        
+
         <!-- Question 1 -->
         <div class="question" id="question-1">
             <p>What is the internet?</p>
@@ -19,12 +19,46 @@
             <label><input type="radio" name="q1" value="D"> D. A collection of websites we want to view</label>
         </div>
 
-        <!-- Add similar blocks for each question, changing the IDs and names -->
+        <!-- Question 2 -->
+        <div class="question" id="question-2">
+            <p>What is the main difference between the internet and the World Wide Web?</p>
+            <label><input type="radio" name="q2" value="A"> A. The internet is a global network that connects computers, and the web is a collection of information accessed through this network</label><br>
+            <label><input type="radio" name="q2" value="B"> B. The World Wide Web is the internet itself</label>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="question" id="question-3">
+            <p>What are the different types of internet connections?</p>
+            <label><input type="checkbox" name="q3" value="A"> A. Dial-up</label><br>
+            <label><input type="checkbox" name="q3" value="B"> B. DSL</label><br>
+            <label><input type="checkbox" name="q3" value="C"> C. Cable</label><br>
+            <label><input type="checkbox" name="q3" value="D"> D. Fiber</label><br>
+            <label><input type="checkbox" name="q3" value="E"> E. Cellular</label>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="question" id="question-4">
+            <p>What is an IP address?</p>
+            <label><input type="radio" name="q4" value="A"> A. A unique identifier for a device connected to the internet</label><br>
+            <label><input type="radio" name="q4" value="B"> B. A number used by websites to store data</label><br>
+            <label><input type="radio" name="q4" value="C"> C. The location of a computer's data on the internet</label><br>
+            <label><input type="radio" name="q4" value="D"> D. A code that encrypts information on the web</label>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="question" id="question-5">
+            <p>What is a server used for?</p>
+            <label><input type="radio" name="q5" value="A"> A. To store and deliver data (like websites) to users on the internet</label><br>
+            <label><input type="radio" name="q5" value="B"> B. To access the World Wide Web</label><br>
+            <label><input type="radio" name="q5" value="C"> C. To control the entire internet</label><br>
+            <label><input type="radio" name="q5" value="D"> D. To store users' personal information</label>
+        </div>
 
         <button onclick="submitQuiz()">Submit Quiz</button>
         <div id="score-container"></div>
     </div>
 
-    <script src="intro.js"></script>
+    <script src="quiz.js"></script>
 </body>
 </html>
+
