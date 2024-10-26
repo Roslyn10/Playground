@@ -12,18 +12,28 @@
             background-color: #f5f5f5; /* Adjust as needed */
             border: 1px solid #ccc;
         }
+
         .coming-soon-banner {
             position: absolute;
             top: 10px; /* Adjust as needed */
             left: 50%;
             transform: translateX(-50%);
-            background-color: rgba(120, 0, 0, 0.8); /* Semi-transparent red */
+            background-color: #C1121F; /* Your primary color */
             color: #fff;
             padding: 10px 20px;
             font-size: 1.5em;
             border-radius: 5px;
             text-align: center;
             z-index: 10; /* Ensure it appears above other content */
+            /* Banner shape */
+            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+            width: 200px; /* Adjust width as needed */
+            margin-top: 20px; /* Add space above the banner */
+        }
+
+        /* Optional: Adjust the container to provide more space */
+        .course-container {
+            padding-top: 60px; /* Adjust to accommodate the banner */
         }
     </style>
 </head>
