@@ -34,7 +34,7 @@
   // Fetch questions from API
   async function fetchQuestions() {
     try {
-      const response = await fetch('http://127.0.0.1:5000/questions'); // Update with your API URL
+      const response = await fetch(' http://127.0.0.1:5000/'); // Update with your API URL
       questions = await response.json();
       displayQuestion();
     } catch (error) {
